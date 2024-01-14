@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "description": "The Aptos Snap.",
+  "proposedName": "Aptos Manager",
+  "source": {
+    "shasum": "wORcSuQ4DSSU3UFTj4P2gUptGrEgH/9Yd2Lv4rw0MqE=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "logo.svg",
+        "packageName": "@rise-wallet/aptos-snap",
+        "registry": "https://registry.npmjs.org"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "snap_dialog": {},
+    "snap_getBip32Entropy": [
+      {
+        "path": [
+          "m",
+          "44'",
+          "637'"
+        ],
+        "curve": "ed25519"
+      }
+    ]
+  },
+  "manifestVersion": "0.1"
+}

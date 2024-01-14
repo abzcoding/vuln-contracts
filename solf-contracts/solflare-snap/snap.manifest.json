@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "description": "The Solana Snap.",
+  "proposedName": "Solana Manager",
+  "source": {
+    "shasum": "KQbUJpORj9R5GsSLwxPvZknSK/eQXIqUcQGpRr6HSEU=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "logo.svg",
+        "packageName": "@solflare-wallet/solana-snap",
+        "registry": "https://registry.npmjs.org"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "snap_dialog": {},
+    "snap_getBip32Entropy": [
+      {
+        "path": [
+          "m",
+          "44'",
+          "501'"
+        ],
+        "curve": "ed25519"
+      }
+    ]
+  },
+  "manifestVersion": "0.1"
+}

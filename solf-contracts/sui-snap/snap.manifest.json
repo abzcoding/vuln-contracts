@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "description": "The Sui Snap.",
+  "proposedName": "Sui Manager",
+  "source": {
+    "shasum": "Qlo4/eo8vZpj91LYzm4Rxvr1LnU01t+7HCeME7IFkMY=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "logo.svg",
+        "packageName": "@elli-wallet/sui-snap",
+        "registry": "https://registry.npmjs.org"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "snap_dialog": {},
+    "snap_getBip32Entropy": [
+      {
+        "path": [
+          "m",
+          "44'",
+          "784'"
+        ],
+        "curve": "ed25519"
+      }
+    ]
+  },
+  "manifestVersion": "0.1"
+}
